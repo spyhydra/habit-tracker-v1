@@ -2,7 +2,8 @@
 # 
 > A habit tracking app that will help you to create and maintain an awesome daily and weekly routine, which is one of the most powerful tools for achieving your goals and sending your life into an upwards spiral.
 
-![image missing](https://thumbs.dreamstime.com/b/waterfall-tropical-garden-spring-season-53617436.jpg)
+![image missing](![Screenshot (31)](https://user-images.githubusercontent.com/49969478/206452495-95c112b2-8a07-4192-80c6-e82bc152fa35.png)
+)
 ## Technologies Used
 1.  NodeJS
 2.  Express
