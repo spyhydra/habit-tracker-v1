@@ -2,8 +2,7 @@
 # 
 > A habit tracking app that will help you to create and maintain an awesome daily and weekly routine, which is one of the most powerful tools for achieving your goals and sending your life into an upwards spiral.
 
-![Screenshot (283)](https://user-images.githubusercontent.com/49118089/88487258-13f92200-cfa1-11ea-8ea0-4528517900e1.png)
-
+![image missing](https://thumbs.dreamstime.com/b/waterfall-tropical-garden-spring-season-53617436.jpg)
 ## Technologies Used
 1.  NodeJS
 2.  Express
@@ -20,7 +19,7 @@
 
 ##### Clone the latest Repository
 
-`git clone https://github.com/rahulsups/habit-tracker.git`
+`git clone https://github.com/spyhydra/habit-tracker-v1.git`
 
 ##### Into the project directory
 
@@ -34,7 +33,7 @@
 
 `npm start`
 
-#### The Server should now be running at http://localhost:3000/
+#### The Server should now be running at http://localhost/
 
 ## Folder Structure
 
@@ -53,6 +52,8 @@ habit-tracker <br>
 ├── routes <br>
 │ --- ├── index.js <br>
 │ --- └── users.js <br>
+| --- └── 
+
 ├── views <br>
 │ --- └── partials <br>
 │ -------- └── messages.ejs <br>
@@ -62,7 +63,7 @@ habit-tracker <br>
 │ --- ├── register.ejs <br>
 │ --- └── welcome.ejs <br>
 ├── .gitignore <br>
-├── app.js <br>
+├── index.js <br>
 ├── package.json <br>
 ├── package-lock.json <br>
 └── README.md <br>
