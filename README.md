@@ -24,7 +24,7 @@
 
 ##### Into the project directory
 
-`cd habit-tracker`
+`cd habit`
 
 ##### Installing NPM dependencies
 
@@ -38,31 +38,40 @@
 
 ## Folder Structure
 
-habit-tracker <br>
+habit <br>
 ├── assets <br>
-│ --- ├── calendar.svg <br>
-│ --- └── css <br>
-│ -------- └── styles.css <br>
+│ --- ├── css <br>
+│ --- └── images <br>
+│ -------- └── js <br>
 │ -------- └── bootstrap.min.css <br>
 ├── config <br>
-│ --- └── keys.js <br>
+│ --- └── mongoose.js <br>
+      └── passport-google.js <br>
+      └── passport-local.js <br>
+      
+├── controller <br>
+│ --- └── habit_controller.js <br>
+      └── home_controller.js  <br>
+      └── users_controller.js <br>
+ 
+
 ├── models <br>
-│ --- ├── Habit.js <br>
-│ --- └── User.js <br>
+│ --- ├── habit.js <br>
+│ --- └── user.js <br>
 ├── node_modules <br>
 ├── routes <br>
-│ --- ├── index.js <br>
-│ --- └── users.js <br>
-| --- └── 
+│ --- ├── habit.js <br>
+│ --- └── index.js <br>
+| --- └── users.js
 
 ├── views <br>
-│ --- └── partials <br>
-│ -------- └── messages.ejs <br>
-│ --- ├── dashboard.ejs <br>
-│ --- ├── layout.ejs <br>
+
+│ --- ├── _habit.ejs <br>
+│ --- ├── _navnar.ejs <br>
+│ --- ├── index.ejs <br>
 │ --- ├── login.ejs <br>
-│ --- ├── register.ejs <br>
-│ --- └── welcome.ejs <br>
+│ --- └── singup.ejs <br>
+│ --- └── userhabit.ejs <br>
 ├── .gitignore <br>
 ├── index.js <br>
 ├── package.json <br>
